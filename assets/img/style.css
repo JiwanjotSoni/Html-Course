@@ -1,0 +1,30 @@
+:root{
+ background-color: grey;
+ text-decoration: none;
+}
+
+ul,li{
+ text-align: center;
+ padding: 0;
+}
+
+
+a:hover{
+ color: white;
+}
+
+a:visited {
+ color: green;
+}
+
+
+a:hover,
+a:active {
+ font-size: 150%;
+}
+
+h1:hover,
+h1:active {
+ color: white;
+  font-family: monospace;
+}
