@@ -1,11 +1,19 @@
 :root{
- background-color: grey;
+  background: linear-gradient(217deg, rgba(219, 201, 201, 0.8), rgba(194, 173, 173, 0) 70.71%),
+  linear-gradient(127deg, rgba(68, 85, 68, 0.8), rgba(10, 228, 10, 0) 70.71%),
+  linear-gradient(336deg, rgba(74, 74, 90, 0.8), rgba(0,0,255,0) 70.71%);
  text-decoration: none;
 }
 
+
+
+
+
 ul,li{
+ display: flex;
  text-align: center;
  padding: 0;
+ margin: 20px;
 }
 
 
@@ -18,10 +26,10 @@ a:visited {
 }
 
 
-a:hover,
+/* a:hover,
 a:active {
  font-size: 150%;
-}
+} */
 
 h1:hover,
 h1:active {
